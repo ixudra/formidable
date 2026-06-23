@@ -1,0 +1,36 @@
+{
+    "name": "ixudra/formidable",
+    "description": "Custom PHP formidable library for the Laravel framework - developed by Ixudra",
+    "version": "0.1.0",
+    "keywords": ["Ixudra", "Laravel", "Formidable"],
+    "homepage": "https://www.ixudra.be",
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Jan Oris",
+            "email": "jan.oris@ixudra.be"
+        }
+    ],
+
+    "require": {
+        "php": ">=8.2",
+        "illuminate/support": ">=12.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Ixudra\\formidable\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ixudra\\Formidable\\FormidableServiceProvider"
+            ],
+            "aliases": {
+                "formidable": "Ixudra\\Formidable\\Facades\\Formidable"
+            }
+        }
+    }
+}
