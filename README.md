@@ -6,14 +6,11 @@ ixudra/formidable
 [![Total Downloads](https://img.shields.io/packagist/dt/ixudra/formidable.svg?style=flat-square)](https://packagist.org/packages/ixudra/formidable)
 
 
-![Ixudra Formidable](https://repository-images.githubusercontent.com/18486198/cd2b2080-de01-11e9-8fb1-e64ffe5e9816)
+![Ixudra Formidable](https://www.ixudra.be/storage/40/GithubHeader.png)
 
-Custom PHP formidable library for the Laravel framework - developed by [Ixudra](http://ixudra.be).
+Custom PHP formidable library for the Laravel framework - developed by [Ixudra](https://www.ixudra.be).
 
-The package provides an easy interface for sending formidable requests from your PHP web application. The package provides an 
-intuitive, fluent interface similar the Laravel query builder to easily configure the request. Additionally, There are 
-several utility methods that allow you to easily add certain options to the request. This makes it easier to create and
-use formidable requests and also makes your code more comprehensible.
+The package provides an easy and intuitive method for building forms in the Laravel framework.  
 
 The provided functionality is completely framework-independent but also contains a Laravel service provider for easy 
 integration into your Laravel project.
